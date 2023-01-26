@@ -6,7 +6,7 @@ public class ToDoApp
         try {
             DBConnection db = DBConnection.getInstance();
             // Insert
-            Task t = new Task("Do the laundry.", false);
+            Task t = new Task("Abdulhadi Alshehri", false);
             t.insertTask();
             // Retrieve all tasks
             t.retrieveTasks();
